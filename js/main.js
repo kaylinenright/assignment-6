@@ -10,6 +10,10 @@ var $panel = $(".panel");
 var $btnBounce = $(".btn-bounce");
 var $circle = $(".circle");
 
+var $btnAppend = $(".btn-append");
+var $list = $(".list");
+
+
 $btnShowHide.on("click", function () {
     $box.toggleClass("js-box-show-hide");
 });
@@ -27,3 +31,6 @@ $btnBounce.on("click", function () {
     $circle.toggleClass("js-btn-bounce");
 });
 
+$btnAppend.on("click", function () {
+    $list.toggleClass("js-btn-append");
+});

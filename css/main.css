@@ -111,9 +111,13 @@ div {
   overflow-y: auto;
 }
 
+js-btn-append {
+    overflow: hidden;
+    
+}
+
 .list li {
   padding: 0.5em;
-
   background-color: plum;
   border: 1px solid mediumpurple;
 
