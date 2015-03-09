@@ -32,5 +32,7 @@ $btnBounce.on("click", function () {
 });
 
 $btnAppend.on("click", function () {
-    $list.toggleClass("js-btn-append");
+    var $li = $('<li>').html('New List Item');
+    $li.addClass('js-list-append');
+    $list.append($li);
 });
