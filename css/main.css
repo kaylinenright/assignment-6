@@ -92,7 +92,8 @@ div {
 }
 
 .js-btn-bounce {
-        animation: circle-bounce 1s linear; 
+     -webkit-animation: circle-bounce 1s linear; 
+     animation: circle-bounce 1s linear;
 }
 
 
@@ -121,6 +122,34 @@ div {
   color: mediumpurple;
 }
 
+@-webkit-keyframes circle-bounce{
+    0% {
+        top: 40px;
+        right: 0px;
+    }
+    20% {
+        top: 10px;
+        right: 10px;
+    }
+    40% {
+        top: 50px;        
+        right: 20px;
+    }
+    60% {
+        top: 20px;
+        right: 30px;
+
+    }
+    80% {
+        top: 30px;
+        right: 40px;
+
+    }
+    100% {
+        top: 40px;
+        right: 50px;
+    }
+}
 
 @keyframes circle-bounce{
     0% {
@@ -148,7 +177,5 @@ div {
     100% {
         top: 40px;
         right: 50px;
-
-    
     }
 }
